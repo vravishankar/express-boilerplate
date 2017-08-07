@@ -1,0 +1,32 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for Express REST API application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vravishankar/express-boilerplate.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "V RAVISHANKAR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vravishankar/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vravishankar/express-boilerplate#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
